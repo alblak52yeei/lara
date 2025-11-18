@@ -7,6 +7,17 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Version 2.0.0
+
+Версия 2.0 включает:
+- Модели Eloquent с миграциями (Category, Contact, Comment)
+- Настроенные связи между моделями (BelongsTo, HasMany, полиморфные)
+- Query Scopes для частых запросов
+- Мягкое удаление (Soft Deletes)
+- API контроллеры с CRUD операциями
+- API Resources для JSON ответов
+- RESTful API маршруты (версия v2)
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:

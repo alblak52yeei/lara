@@ -2,7 +2,8 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "laravel/laravel",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "The skeleton application for the Laravel framework. Version 2.0",
+    "version": "2.0.0",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {

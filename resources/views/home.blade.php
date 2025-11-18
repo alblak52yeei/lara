@@ -16,6 +16,9 @@
         <a href="{{ route('data.show') }}" class="btn btn-secondary">
             📊 Посмотреть данные
         </a>
+        <a href="{{ route('api') }}" class="btn btn-primary" style="background-color: #28a745;">
+            🔧 API Управление
+        </a>
     </div>
 </div>
 

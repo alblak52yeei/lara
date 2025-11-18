@@ -13,3 +13,8 @@ Route::post('/form', [FormController::class, 'submitForm'])->name('form.submit')
 
 // Страница с данными
 Route::get('/data', [FormController::class, 'showData'])->name('data.show');
+
+// Страница управления через API
+Route::get('/api', function () {
+    return view('api');
+})->name('api');
